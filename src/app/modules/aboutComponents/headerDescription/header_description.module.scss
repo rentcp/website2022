@@ -2,9 +2,9 @@
 @import '~Styles/mixins.module';
 
 .user_description_container {
-  left: calc(50vw - 265px);
-  padding: 118px 90px 41px;
-  border-radius: 35px;
+  left: calc(50vw - 200px);
+  padding: 118px 50px 30px;
+  border-radius: 65px;
   box-shadow: 0px 5px 12px 3px rgba(0, 0, 0, 0.35);
   background-color: rgba(#ffffff, 0.87);
   max-width: 350px;
@@ -22,7 +22,7 @@
     text-align: center;
 
     .name {
-      color: $color-blue;
+      color: $color-dark;
       font-size: 14px;
     }
   }
@@ -36,14 +36,14 @@
       font-weight: bold;
       margin: 0px 3px;
       cursor: pointer;
-      color: $color-green;
+      color: $color-dark;
       transition: transform 300ms ease-out;
 
       .underline {
         height: 2px;
         width: 100%;
         transition: width 500ms ease;
-        background: $color-green;
+        background: $color-dark;
       }
     }
 
@@ -51,7 +51,7 @@
       transform: translateY(-2px);
 
       .underline {
-        width: 0px;
+        width: 10px;
       }
     }
   }

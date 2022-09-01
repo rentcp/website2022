@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import iconEmail from "Icons/icon-email.png";
-import iconLinkedIn from "Icons/icon-linkedin.png";
-import iconGithub from "Icons/icon-github.png";
-import iconResume from 'Icons/icon-resume.png';
-import iconEmailWhite from "Icons/icon-email-white.png";
-import iconLinkedInWhite from "Icons/icon-linkedin-white.png";
-import iconGithubWhite from "Icons/icon-github-white.png";
-import iconResumeWhite from 'Icons/icon-resume-white.png';
+
+import iconTwitter from "Icons/icon-twitter.png";
+import iconTwitterWhite from "Icons/icon-twitter-white.png";
+
+import iconSubstack from "Icons/icon-substack.png";
+import iconSubstackWhite from "Icons/icon-substack-white.png";
+
+import iconQuora from 'Icons/icon-quora.png';
+import iconQuoraWhite from "Icons/icon-quora-white.png";
+
 import Div from "Common/components/div";
 import styles from "./contact_component.module.scss";
 
@@ -18,34 +20,26 @@ const ContactComponent = ({ className, isWhite, hideResume }) => {
       align
       className={`${styles.social_container} ${className}`}
     >
-      <a className={styles.icon_link} target="_blank" href="https://github.com/riyaz942">
+      <a className={styles.icon_link} target="_blank" href="https://chrisrentsch.substack.com/">
         <img
-          src={isWhite ? iconGithubWhite : iconGithub}
+          src={isWhite ? iconSubstackWhite : iconSubstack}
           className={styles.icon}
         />
       </a>
-      <a className={styles.icon_link} target="_blank" href="https://www.linkedin.com/in/riyaz942/">
+      
+	  <a className={styles.icon_link} target="_blank" href="https://twitter.com/crentsch">
         <img
-          src={isWhite ? iconLinkedInWhite : iconLinkedIn}
+          src={isWhite ? iconTwitterWhite : iconTwitter}
           className={styles.icon}
         />
       </a>
-      <a className={styles.icon_link} target="_blank" href="mailto:ahmed.riyaz94@gmail.com">
+      
+	  <a className={styles.icon_link} target="_blank" href="https://www.quora.com/profile/Chris-Rentsch">
         <img
-          src={isWhite ? iconEmailWhite : iconEmail}
+          src={isWhite ? iconQuoraWhite : iconQuora}
           className={styles.icon}
         />
       </a>
-      {
-        !hideResume && (
-          <a className={styles.icon_link} target="_blank" href="https://drive.google.com/file/d/1wsyIqp20IRSRLPZhYG5FqwdqLek8vx4X/view?usp=sharing">
-          <img
-            src={isWhite ? iconResumeWhite : iconResume}
-            className={styles.icon}
-          />
-        </a>  
-        )
-      }
     </Div>
   );
 };

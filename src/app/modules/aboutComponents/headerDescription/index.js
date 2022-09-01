@@ -32,36 +32,30 @@ const HeaderDescription = ({
         (props => (
           <Div style={props} className={styles.user_description_container}>
             <div className={styles.user_description}>
-              Hi, <br />I am <b className={styles.name}>Riyaz Ahmed</b>, A
-              Software Developer with 4+ years of Software Development
-              experience on various Platforms, Passionate to build Polished,
-              Innovative and well-detailed Apps with Fluid Animations to
-              complement the Design.
-              {/* <br/><br/> In my spare time, I usually read or play video games but mostly i try to work on new ideas and learn. */}
+              <b className={styles.name}>Chris Rentsch</b> | Chemical engineer | Data scientist<br />
             </div>
-
             <Div row justify align className={styles.user_button_container}>
-              Checkout my
-              <Div
-                align
-                className={styles.user_button}
-                onClick={onClickTimeline}
-              >
-                Timeline
-                <Underline isFirstTime={isFirstTime} />
-              </Div>
-              and
+			<br/>
               <Div
                 align
                 className={styles.user_button}
                 onClick={onClickProject}
               >
-                Technologies
+                PROJECTS
                 <Underline isFirstTime={isFirstTime} />
               </Div>
-              that I worked on.
-            </Div>
 
+
+              <Div
+                align
+                className={styles.user_button}
+                onClick={onClickTimeline}
+              >
+                ABOUT
+                <Underline isFirstTime={isFirstTime} />
+              </Div>
+              
+            </Div>
             <ContactComponent className={styles.contact_container} />
           </Div>
         ))
