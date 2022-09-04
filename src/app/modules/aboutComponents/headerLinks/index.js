@@ -83,13 +83,13 @@ const HeaderLinks = ({
                 className={styles.header_link_button}
                 onClick={onClickTimeline}
               >
-                Timeline
+                About
               </div>
               <div
                 className={styles.header_link_button}
                 onClick={onClickProject}
               >
-                Tech
+                Projects
               </div>
             </Div>
             <animated.div

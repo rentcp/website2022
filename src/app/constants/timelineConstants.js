@@ -27,34 +27,34 @@ export const timelineListValue = [
     backgroundImage: nykaaBackgroundImage,
     projects: ['nykaa']
   },
+//  {
+//    id: 'tailoredtech',
+//    companyName: 'Tailored Tech',
+//    link: 'https://www.tailoredtech.in/',
+//    position: 'Fullstack Developer',
+//    duration: 'May 2016 - Jan 2019 (2 years & 8 months)',
+//    location: 'Pune',
+//    roleDetail: 'In TailoredTech I got to experience many roles. I was initially working as an Android developer for a year then jumped on to these tech stacks :- Laravel, React-Native and React.',
+//    companyDetail: 'Tailored Tech was a service based startup specialised in web and mobile development, and had clients like Nykaa, Ezone, Sportobuddy, healthcode, hippily, wok express, etc.<br /> TailoredTech later got acqui-hired by Nykaa.',
+//    firstLogo: tailoredTechLogoFirst,
+//    restLogo: tailoredTechLogoRest,
+//    restMargin: 34,
+//    backgroundImage: tailoredTechBackgroundImage,
+//    projects: ['snapteam', 'pulse', 'measure', 'wakency', 'benefactory', 'lighthouse']
+//  },
   {
-    id: 'tailoredtech',
-    companyName: 'Tailored Tech',
-    link: 'https://www.tailoredtech.in/',
-    position: 'Fullstack Developer',
-    duration: 'May 2016 - Jan 2019 (2 years & 8 months)',
-    location: 'Pune',
-    roleDetail: 'In TailoredTech I got to experience many roles. I was initially working as an Android developer for a year then jumped on to these tech stacks :- Laravel, React-Native and React.',
-    companyDetail: 'Tailored Tech was a service based startup specialised in web and mobile development, and had clients like Nykaa, Ezone, Sportobuddy, healthcode, hippily, wok express, etc.<br /> TailoredTech later got acqui-hired by Nykaa.',
-    firstLogo: tailoredTechLogoFirst,
-    restLogo: tailoredTechLogoRest,
-    restMargin: 34,
-    backgroundImage: tailoredTechBackgroundImage,
-    projects: ['snapteam', 'pulse', 'measure', 'wakency', 'benefactory', 'lighthouse']
-  },
-  {
-    id: 'mit',
-    companyName: 'College',
-    position: 'Android & Web',
-    duration: '2015 - 2016 (1 years)',
-    location: 'Pune',
+    id: 'UofM',
+    companyName: 'University of Michigan',
+    position: 'Chemical Engineering',
+    duration: '2000-2003 (3.5 years)',
+    location: 'Ann Arbor',
     roleDetail: '',
     companyDetail: '',
     firstLogo: mitLogoFirst,
     restLogo: mitLogoRest,
     restMargin: 37,
     backgroundImage: collegeBackgroundImage,
-    projects: ['vc_music_player']
+    projects: []
   }
 ];
 

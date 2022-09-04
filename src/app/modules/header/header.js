@@ -8,7 +8,7 @@ const Header = ({ isFullScreen, showDescription, clientX, clientY, isFirstTime }
     from: {
       opacity: isFirstTime? 1 : 0,
       transform: isFirstTime ? 'scaleY(1)': 'scaleY(0.07)',
-      background: isFirstTime ? '#33333300' : '#333333',
+      background: isFirstTime ? '#333333' : '#333333',
     },
     enter: {
       opacity: 1,
