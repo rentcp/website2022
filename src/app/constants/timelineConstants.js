@@ -4,8 +4,8 @@ import nykaaLogoRest from 'Images/nykaa-logo-rest.png';
 import tailoredTechLogoFirst from 'Images/tailoredtech-logo-first.png';
 import tailoredTechLogoRest from 'Images/tailoredtech-logo-rest.png';
 
-import mitLogoFirst from 'Images/mit-logo-first.png';
-import mitLogoRest from 'Images/mit-logo-rest.png';
+import uofmLogoFirst from 'Images/uofm-logo-first.png';
+import uofmLogoRest from 'Images/uofm-logo-rest.png';
 
 import nykaaBackgroundImage from 'Images/background/background-image-nykaa.jpg';
 import tailoredTechBackgroundImage from 'Images/background/background-image-tailoredtech.jpg';
@@ -44,14 +44,14 @@ export const timelineListValue = [
 //  },
   {
     id: 'UofM',
-    companyName: 'University of Michigan',
-    position: 'Chemical Engineering',
+    companyName: 'Chemical Engineering',
+    position: 'Summa cum laude',
     duration: '2000-2003 (3.5 years)',
     location: 'Ann Arbor',
     roleDetail: '',
     companyDetail: '',
-    firstLogo: mitLogoFirst,
-    restLogo: mitLogoRest,
+    firstLogo: uofmLogoFirst,
+    restLogo: uofmLogoRest,
     restMargin: 37,
     backgroundImage: collegeBackgroundImage,
     projects: []
