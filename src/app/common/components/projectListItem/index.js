@@ -45,7 +45,7 @@ const ProjectListItem = ({ index, project, style, className }) => {
         >
           <div className={styles.title}>{project.name}</div>
           <div className={styles.description}>{project.tech.join(" | ")}</div>
-          <div className={styles.overlay_view_project}>View Project</div>
+          <div className={styles.overlay_view_project}>View</div>
         </Div>
         <div className={styles.bottom_background_gradient}></div>
       </div>

@@ -9,7 +9,7 @@ import RightContainer from "Common/containers/rightContainer";
 
 class Timeline extends Component {
   state = {
-    selectedTimelineId: "nykaa",
+    selectedTimelineId: "UofM",
     selectionNext: true
   };
 

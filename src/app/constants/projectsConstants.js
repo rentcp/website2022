@@ -1,5 +1,5 @@
-import bijliIcon from 'Icons/project-icon-bijli.png';
-import wakencyIcon from 'Icons/project-icon-wakency.png';
+import bijliIcon from 'Icons/project-icon-satellite.png';
+import feynmanIcon from 'Icons/feynman_icon.png';
 import nykaaIcon from 'Icons/project-icon-nykaa.png';
 import pulseIcon from 'Icons/project-icon-pulse.png';
 import lighthouseIcon from 'Icons/project-icon-lighthouse.png';
@@ -9,100 +9,71 @@ import vcMusicPlayerIcon from 'Icons/project-icon-vc-music-player.png';
 
 export const projectsListValue = {
   snapteam: {
-    name: 'Snapteam/Bijli',
-    tech: ['react', 'electron', 'laravel'],
+    name: 'Infrared Satellite Study of GHGs',
+    tech: [],
     involvement: 'Major',
     icon: bijliIcon,
     description: [
       {
         type: 'text',
         highlight: 'green',
-        value: 'Bijli is a Project management and communication App which helps reduce communication noise within teams, and provide useful metric to make real time decisions.'
+        value: 'Infrared spectrophotometric measurements made between 2003-2021 totalling 40 TB were downloaded, filtered for clear-sky conditions, then trended to show the impact of rising CO2 levels in the atmosphere.'
       },
       {
         type: 'points',
         highlight: 'green',
-        title: 'The intention for bijli was to have a cross-platform product working on Web, Desktop, Android, iOS, Slack platforms having these core features :',
+        title: 'This was a ground-breaking study because:',
         value: [
-          'Check-in Mechanism',
-          'To-Do management',
-          'Notification & Updates',
-          'Feedback Engine',
-          'Reservation System',
-          'Real-Time Insights'
+          'First global, space-based assessment',
+          'First empirical measuremennt of CO2 effective radiative forcing',
+          'First quantitative check of computer LBL models of CO2',
         ]
       },
       {
         type: 'text',
         highlight: 'green',
-        value: 'This Project was also displayed on tech crunch 2018.'
+        value: 'This study led to a publication in 2022.'
       },
       {
         type: 'header',
-        value: 'My Contribution :',        
+        value: 'My Contribution:',        
       },
       {
         type: 'text',
-        value: 'In Bijli I mostly worked on React and Electron, and worked with Laravel for one feature.<br/>Have Architectured Home page components to connect with other tabs which communicate with each other and handle realtime data updates.',
-      },
-      {
-        type: 'points',
-        title: 'These are some feature complexity faced and technology used :',
-        value: [
-          'Electron and Web build process with webpack',
-          "A custom made Compose flow (Drafting messages, tagging, file attachments, etc)",
-          'Pusher implementation for real time data updates',
-          'Css in js implementation with aphrodite',
-          'Worked with string replace to add functionality to a part of a string',
-          'Redux-api-middleware',
-          'React-Router-v4',
-          'React-redux-form',
-          'Aphrodite',
-          'Redux-api-middleware',
-          'Material-UI',
-          'Firebase',
-          'Redux',
-          'React-Router',
-          'Redux-Form',
-          'Css Modules'
-        ]
+        value: 'Contributions.',
       }
     ]
   },
   
-  wakency: {
-    name: 'Wakency',
-    tech: ['react'],
-    icon: wakencyIcon,
-    involvement: 'Intermittent',
+  feynman: {
+    name: 'The Pleasure of Finding Things Out',
+    tech: [],
+    icon: feynmanIcon,
+    involvement: '',
     link: {
       type: 'visit',
-      value: 'https://www.wakency.com/'
+      value: 'https://www.amazon.com/Pleasure-Finding-Things-Out-Richard/dp/0465023959/ref=d_pd_sbs_sccl_2_1/131-7494496-0122603'
     },
     description: [
       {
         type: 'text',
         highlight: 'green',
-        value: 'Wakency has been built to address the changing work culture of our times, to be India’s first on-demand flexible work platform that uses proprietary technology to automate making the perfect match between temporary workers and employers.'
+        value: 'First Text.'
       },
       {
         type: 'header',
-        value: 'My Contribution :',        
+        value: 'Header:',        
       },
       {
         type: 'text',
-        value: 'I worked on the front-end web and developed the landing pages and few features within the app. '
+        value: 'Second Text.'
       },
       {
         type: 'points',
         value: [
-          'Worked with css-modules',
-          'Firebase Notification',
-          'Redux',
-          'Redux-api-middleware',
-          'React-redux-form',
-          'React-Router v3',
-          'Slick and swiper.js for carousel'
+          'Point 1',
+          'Point 2',
+          'Point 3'
         ]
       }
     ]

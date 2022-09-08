@@ -31,8 +31,8 @@ const HeaderLinks = ({
     transformUnderline:
       bodyType == landingPageBody.TIMELINE
         ? "translateX(0px)"
-        : "translateX(77px)",
-    underlineWidth: bodyType == landingPageBody.TIMELINE ? 62 : 37
+        : "translateX(60px)",
+    underlineWidth: bodyType == landingPageBody.TIMELINE ? 42 : 58
   });
 
   return transition.map(
