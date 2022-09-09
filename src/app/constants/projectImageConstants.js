@@ -3,6 +3,8 @@ const projectImages = {
   pulse: require.context(`../../assets/images/projectImages/pulse`, false, /.*\.png$/),
   measure: require.context(`../../assets/images/projectImages/measure`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.png$/),
+  atomic: require.context(`../../assets/images/projectImages/atomic`, false, /.*\.png$/),
+  work: require.context(`../../assets/images/projectImages/work`, false, /.*\.png$/),
   benefactory: require.context(`../../assets/images/projectImages/benefactory`, false, /.*\.png$/),
   lighthouse: require.context(`../../assets/images/projectImages/lighthouse`, false, /.*\.png$/),
   nykaa: require.context(`../../assets/images/projectImages/nykaa`, false, /.*\.png$/),

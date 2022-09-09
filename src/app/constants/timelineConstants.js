@@ -1,8 +1,8 @@
 import booksLogoFirst from 'Images/books-logo-first.png';
 import booksLogoRest from 'Images/books-logo-rest.png';
 
-import proLogoFirst from 'Images/tailoredtech-logo-first.png';
-import proLogoRest from 'Images/tailoredtech-logo-rest.png';
+import proLogoFirst from 'Images/professional-logo-first.png';
+import proLogoRest from 'Images/professional-logo-rest.png';
 
 import uofmLogoFirst from 'Images/uofm-logo-first.png';
 import uofmLogoRest from 'Images/uofm-logo-rest.png';
@@ -39,21 +39,21 @@ export const timelineListValue = [
     restLogo: proLogoRest,
     restMargin: 34,
     backgroundImage: proBackgroundImage,
-    projects: ['snapteam']
+    projects: ['work']
   },
   {
     id: 'books',
     companyName: 'Books',
     link: '',
     position: '',
-    duration: 'Notes from noteworthy books',
+    duration: 'Excerpts from my favorite books so I can access them from anywhere.',
     location: '',
     roleDetail: '',
     firstLogo: booksLogoFirst,
     restLogo: booksLogoRest,
-    restMargin: 26, // the secound image margin because logo length is different
+    restMargin: 30, // the secound image margin because logo length is different
     backgroundImage: booksBackgroundImage,
-    projects: ['feynman']
+    projects: ['feynman', 'atomic']
   }
 ];
 

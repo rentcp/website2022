@@ -1,5 +1,7 @@
 import bijliIcon from 'Icons/project-icon-satellite.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
+import atomicIcon from 'Icons/atomic_bomb_icon.png'
+import linkedinIcon from 'Icons/icon-LinkedIn.png'
 import nykaaIcon from 'Icons/project-icon-nykaa.png';
 import pulseIcon from 'Icons/project-icon-pulse.png';
 import lighthouseIcon from 'Icons/project-icon-lighthouse.png';
@@ -78,6 +80,75 @@ export const projectsListValue = {
       }
     ]
   },
+  
+  atomic: {
+    name: 'The Making of the Atomic Bomb',
+    tech: [],
+    icon: atomicIcon,
+    involvement: '',
+    link: {
+      type: 'visit',
+      value: 'https://www.amazon.com/Pleasure-Finding-Things-Out-Richard/dp/0465023959/ref=d_pd_sbs_sccl_2_1/131-7494496-0122603'
+    },
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'First Text.'
+      },
+      {
+        type: 'header',
+        value: 'Header:',        
+      },
+      {
+        type: 'text',
+        value: 'Second Text.'
+      },
+      {
+        type: 'points',
+        value: [
+          'Point 1',
+          'Point 2',
+          'Point 3'
+        ]
+      }
+    ]
+  },
+  
+  work: {
+    name: 'Work History',
+    tech: [],
+    icon: linkedinIcon,
+    involvement: '',
+    link: {
+      type: 'visit',
+      value: 'https://www.linkedin.com/in/chris-rentsch/'
+    },
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'First Text.'
+      },
+      {
+        type: 'header',
+        value: 'Header:',        
+      },
+      {
+        type: 'text',
+        value: 'Second Text.'
+      },
+      {
+        type: 'points',
+        value: [
+          'Point 1',
+          'Point 2',
+          'Point 3'
+        ]
+      }
+    ]
+  },
+  
   nykaa: {
     name: 'Nykaa',
     tech: ['react'],
