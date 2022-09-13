@@ -1,5 +1,8 @@
 const projectImages = {
   satellite: require.context(`../../assets/images/projectImages/satellite`, false, /.*\.png$/),
+  arxiv: require.context(`../../assets/images/projectImages/arxiv`, false, /.*\.png$/),
+  om1: require.context(`../../assets/images/projectImages/om1`, false, /.*\.png$/),
+  tsp1: require.context(`../../assets/images/projectImages/tsp1`, false, /.*\.png$/),
   pulse: require.context(`../../assets/images/projectImages/pulse`, false, /.*\.png$/),
   measure: require.context(`../../assets/images/projectImages/measure`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.png$/),

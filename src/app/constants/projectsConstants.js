@@ -1,4 +1,5 @@
 import satelliteIcon from 'Icons/project-icon-satellite.png';
+import arxivIcon from 'Icons/project-icon-arxiv.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
 import atomicIcon from 'Icons/atomic_bomb_icon.png'
 import linkedinIcon from 'Icons/icon-LinkedIn.png'
@@ -11,11 +12,51 @@ import measureIcon from 'Icons/project-icon-measure.png';
 import vcMusicPlayerIcon from 'Icons/project-icon-vc-music-player.png';
 
 export const projectsListValue = {
-  satellite: {
-    name: 'Infrared Satellite Study of GHGs',
+  tsp1: {
+    name: 'Angular Study',
     tech: [],
-    involvement: 'Major',
-    icon: satelliteIcon,
+    involvement: 'Sole Author',
+    icon: arxivIcon,
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'Empirical study of large TSP solutions'
+      },
+      {
+        type: 'points',
+        highlight: 'green',
+        title: 'Build a software tool that observed that there is a tendency for optimal TSP solutions to have certain characteristics:',
+        value: [
+          'Aversion for acute angles between cities',
+          'Exponential distribution of path lengths',
+        ]
+      },
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'text.'
+      },
+      {
+        type: 'header',
+        value: 'My Contribution:',        
+      },
+      {
+        type: 'text',
+        value: 'Contributions.',
+      }
+    ]
+  },
+  
+  arxiv: {
+    name: 'Measurement of greenhouse effect',
+    tech: [],
+    involvement: 'Sole Author',
+    icon: arxivIcon,
+	link: {
+      type: 'visit',
+      value: 'https://arxiv.org/abs/1911.10605'
+    },
     description: [
       {
         type: 'text',

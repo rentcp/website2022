@@ -13,11 +13,11 @@ import electronBackgroundImage from 'Images/technology/pandas-background-image.p
 export const techList = [
   {
     id: 'react',
-    name: 'Satellite',
+    name: 'Studying CO2',
     firstLogo: reactIcon,
     backgroundImage: reactBackgroundImage,
-    description: `The first satellite study to measure the radiative effects of increasing carbon dioxide in the atmosphere.`,
-    projects: ['satellite'],
+    description: `The first satellite study measuring the radiative effects of increasing carbon dioxide in the atmosphere.`,
+    projects: ['arxiv'],
   },
 //  {
 //    id: 'android',
@@ -37,10 +37,10 @@ export const techList = [
   },
   {
     id: 'react-native',
-    name: 'DOE',
+    name: 'TSP',
     firstLogo: reactNativeIcon,
     backgroundImage: reactNativeBackgroundImage,
-    description: `Assembling a proper Design of Experiment (DOE) requires a specialized understanding of the exploration space as well as the various DOE algorithms (Box-Behnken, Box-Wilson, Plackett-Burman, Latin Hypercube, etc)`,
-    projects: ['lighthouse']
+    description: `Travelling Salesman Problem`,
+    projects: ['tsp1']
   }
 ];
