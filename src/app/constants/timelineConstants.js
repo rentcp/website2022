@@ -14,7 +14,7 @@ import collegeBackgroundImage from 'Images/background/background-image-college.j
 export const timelineListValue = [
   {
     id: 'UofM',
-    companyName: 'Chemical Engineering',
+    companyName: 'BS, Chemical Engineering',
     position: 'Summa cum laude',
     duration: '2000-2003 (3.5 years)',
     location: 'Ann Arbor',
@@ -37,7 +37,7 @@ export const timelineListValue = [
     companyDetail: 'companyDetail.',
     firstLogo: proLogoFirst,
     restLogo: proLogoRest,
-    restMargin: 34,
+    restMargin: 30,
     backgroundImage: proBackgroundImage,
     projects: ['work']
   },

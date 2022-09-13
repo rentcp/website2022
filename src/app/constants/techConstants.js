@@ -12,29 +12,28 @@ import electronBackgroundImage from 'Images/technology/pandas-background-image.p
 
 export const techList = [
   {
-    id: 'android',
-    name: 'Python',
-    firstLogo: androidIcon,
-    backgroundImage: androidBackgroundImage,
-    description: `Generaly Python capabilities with specific skills in data harvesting (urllib.request, BeautifulSoup), processing (Pandas, SciPy) and visualization (Matplotlib, Seaborn)`,
-    projects: ['vc_music_player', 'measure']
-  },
-  {
     id: 'react',
-    name: 'Pandas',
+    name: 'Satellite',
     firstLogo: reactIcon,
     backgroundImage: reactBackgroundImage,
-    description: `Pandas is a Python package for handling large datasets. I have written automated Python scripts to process 40+ TB of data.
-    <br/><br/>Text 2`,
-    projects: ['snapteam', 'nykaa'],
+    description: `The first satellite study to measure the radiative effects of increasing carbon dioxide in the atmosphere.`,
+    projects: ['satellite'],
   },
+//  {
+//    id: 'android',
+//    name: 'Python',
+//    firstLogo: androidIcon,
+//    backgroundImage: androidBackgroundImage,
+//    description: `General Python capabilities with specific skills in data harvesting (urllib.request, BeautifulSoup), processing (Pandas, SciPy) and visualization (Matplotlib, Seaborn)`,
+//    projects: ['vc_music_player', 'measure']
+//  },
   {
     id: 'laravel',
     name: 'Process Design',
     firstLogo: laravelIcon,
     backgroundImage: laravelBackgroundImage,
     description: `Chemical process design and development, starting from bench scale chemistry.`,
-    projects: ['benefactory', 'snapteam']
+    projects: ['om1']
   },
   {
     id: 'react-native',
@@ -42,6 +41,6 @@ export const techList = [
     firstLogo: reactNativeIcon,
     backgroundImage: reactNativeBackgroundImage,
     description: `Assembling a proper Design of Experiment (DOE) requires a specialized understanding of the exploration space as well as the various DOE algorithms (Box-Behnken, Box-Wilson, Plackett-Burman, Latin Hypercube, etc)`,
-    projects: ['lighthouse', 'pulse']
+    projects: ['lighthouse']
   }
 ];

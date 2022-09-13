@@ -1,4 +1,4 @@
-import bijliIcon from 'Icons/project-icon-satellite.png';
+import satelliteIcon from 'Icons/project-icon-satellite.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
 import atomicIcon from 'Icons/atomic_bomb_icon.png'
 import linkedinIcon from 'Icons/icon-LinkedIn.png'
@@ -6,15 +6,16 @@ import nykaaIcon from 'Icons/project-icon-nykaa.png';
 import pulseIcon from 'Icons/project-icon-pulse.png';
 import lighthouseIcon from 'Icons/project-icon-lighthouse.png';
 import benefactoryIcon from 'Icons/project-icon-benefactory.png';
+import om1Icon from 'Icons/project-icon-om1.png';
 import measureIcon from 'Icons/project-icon-measure.png';
 import vcMusicPlayerIcon from 'Icons/project-icon-vc-music-player.png';
 
 export const projectsListValue = {
-  snapteam: {
+  satellite: {
     name: 'Infrared Satellite Study of GHGs',
     tech: [],
     involvement: 'Major',
-    icon: bijliIcon,
+    icon: satelliteIcon,
     description: [
       {
         type: 'text',
@@ -119,6 +120,40 @@ export const projectsListValue = {
     name: 'Work History',
     tech: [],
     icon: linkedinIcon,
+    involvement: '',
+    link: {
+      type: 'visit',
+      value: 'https://www.linkedin.com/in/chris-rentsch/'
+    },
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'First Text.'
+      },
+      {
+        type: 'header',
+        value: 'Header:',        
+      },
+      {
+        type: 'text',
+        value: 'Second Text.'
+      },
+      {
+        type: 'points',
+        value: [
+          'Point 1',
+          'Point 2',
+          'Point 3'
+        ]
+      }
+    ]
+  },
+  
+  om1: {
+    name: 'Origin Materials 1',
+    tech: [],
+    icon: om1Icon,
     involvement: '',
     link: {
       type: 'visit',

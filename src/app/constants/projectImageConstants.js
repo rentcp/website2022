@@ -1,5 +1,5 @@
 const projectImages = {
-  snapteam: require.context(`../../assets/images/projectImages/snapteam`, false, /.*\.png$/),
+  satellite: require.context(`../../assets/images/projectImages/satellite`, false, /.*\.png$/),
   pulse: require.context(`../../assets/images/projectImages/pulse`, false, /.*\.png$/),
   measure: require.context(`../../assets/images/projectImages/measure`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.png$/),
