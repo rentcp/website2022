@@ -2,13 +2,11 @@ import reactIcon from 'Icons/technology/pandas-tech-icon.png';
 import reactNativeIcon from 'Icons/technology/react-native-tech-icon.png';
 import androidIcon from 'Icons/technology/python-tech-icon.png';
 import laravelIcon from 'Icons/technology/chemical-tech-icon.png';
-import electronIcon from 'Icons/technology/electron-tech-icon.png';
 
 import reactBackgroundImage from 'Images/technology/pandas-background-image.png';
 import reactNativeBackgroundImage from 'Images/technology/react-native-background-image.png';
 import androidBackgroundImage from 'Images/technology/python-background-image.png';
 import laravelBackgroundImage from 'Images/technology/chemical2-background-image.png';
-import electronBackgroundImage from 'Images/technology/pandas-background-image.png';
 
 export const techList = [
   {

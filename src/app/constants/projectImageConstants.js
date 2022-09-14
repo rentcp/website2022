@@ -3,15 +3,9 @@ const projectImages = {
   arxiv: require.context(`../../assets/images/projectImages/arxiv`, false, /.*\.png$/),
   om1: require.context(`../../assets/images/projectImages/om1`, false, /.*\.png$/),
   tsp1: require.context(`../../assets/images/projectImages/tsp1`, false, /.*\.png$/),
-  pulse: require.context(`../../assets/images/projectImages/pulse`, false, /.*\.png$/),
-  measure: require.context(`../../assets/images/projectImages/measure`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.png$/),
   atomic: require.context(`../../assets/images/projectImages/atomic`, false, /.*\.png$/),
   work: require.context(`../../assets/images/projectImages/work`, false, /.*\.png$/),
-  benefactory: require.context(`../../assets/images/projectImages/benefactory`, false, /.*\.png$/),
-  lighthouse: require.context(`../../assets/images/projectImages/lighthouse`, false, /.*\.png$/),
-  nykaa: require.context(`../../assets/images/projectImages/nykaa`, false, /.*\.png$/),
-  vc_music_player: require.context(`../../assets/images/projectImages/vc_music_player`, false, /.*\.png$/),
   books: require.context(`../../assets/images/projectImages/books`, false, /.*\.png$/),
 };
 

@@ -1,10 +1,9 @@
 import React from "react";
 import Div from "Common/components/div";
-import reactBackgroundImage from "Images/technology/react-background-image.png";
-import reactNativeBackgroundImage from "Images/technology/react-native-background-image.png";
-import androidBackgroundImage from "Images/technology/android-background-image.png";
-import laravelBackgroundImage from "Images/technology/laravel-background-image.png";
-import electronBackgroundImage from "Images/technology/electron-background-image.png";
+import reactBackgroundImage from 'Images/technology/pandas-background-image.png';
+import reactNativeBackgroundImage from 'Images/technology/react-native-background-image.png';
+import androidBackgroundImage from 'Images/technology/python-background-image.png';
+import laravelBackgroundImage from 'Images/technology/chemical2-background-image.png';
 import styles from "./listing_page.module.scss";
 
 const ListingPage = ({ onItemSelected }) => {
@@ -13,7 +12,6 @@ const ListingPage = ({ onItemSelected }) => {
     reactNativeBackgroundImage,
     androidBackgroundImage,
     laravelBackgroundImage,
-    electronBackgroundImage
   ];
 
   return (
