@@ -11,7 +11,7 @@ import laravelBackgroundImage from 'Images/technology/chemical2-background-image
 export const techList = [
   {
     id: 'react',
-    name: 'Studying CO2',
+    name: 'CO2',
     firstLogo: reactIcon,
     backgroundImage: reactBackgroundImage,
     description: `The first satellite study measuring the radiative effects of increasing carbon dioxide in the atmosphere.`,
