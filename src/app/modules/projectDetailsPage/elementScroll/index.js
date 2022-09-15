@@ -109,7 +109,7 @@ const ElementScroll = ({
           <div className={styles.value}>{project.tech.join(" | ")}</div>
 
           <div className={`${styles.title} ${styles.project_involvement}`}>
-            Project Involment
+            Title
           </div>
           <div className={styles.value}>{project.involvement}</div>
         </Div>

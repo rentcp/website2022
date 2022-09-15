@@ -31,7 +31,7 @@ export const techList = [
     firstLogo: laravelIcon,
     backgroundImage: laravelBackgroundImage,
     description: `Chemical process design and development, starting from bench scale chemistry.`,
-    projects: ['om1']
+    projects: []
   },
   {
     id: 'react-native',
@@ -39,6 +39,6 @@ export const techList = [
     firstLogo: reactNativeIcon,
     backgroundImage: reactNativeBackgroundImage,
     description: `Travelling Salesman Problem`,
-    projects: ['tsp1']
+    projects: []
   }
 ];

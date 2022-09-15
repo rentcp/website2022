@@ -27,7 +27,7 @@ const ProjectDescription = ({ project, className }) => {
           <div className={styles.value}>{tech.join(" | ")}</div>
         </Div>
         <Div align="end">
-          <div className={styles.title}>Project Involment</div>
+          <div className={styles.title}>Title</div>
           <div className={styles.value}>{involvement}</div>
         </Div>
       </Div>
