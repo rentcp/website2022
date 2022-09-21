@@ -53,7 +53,7 @@ export const timelineListValue = [
     restLogo: booksLogoRest,
     restMargin: 30, // the secound image margin because logo length is different
     backgroundImage: booksBackgroundImage,
-    projects: ['feynman', 'atomic']
+    projects: ['atomic', 'feynman', 'pi', 'physics']
   }
 ];
 
