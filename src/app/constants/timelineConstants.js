@@ -30,7 +30,7 @@ export const timelineListValue = [
     id: 'professional',
     companyName: 'Professional Employment',
     link: 'https://www.linkedin.com/in/chris-rentsch/',
-    position: 'Process Development Manager. Helping nutrient, energy, plastics and chemical start-up companies build 100-1000x larger)',
+    position: 'Process Development Manager. Helping food, energy, plastics and chemical start-up companies build 100-1000x larger',
     duration: 'Jan 2004 - Present (19 years)',
     location: '',
     roleDetail: 'roleDetail.',
@@ -53,7 +53,7 @@ export const timelineListValue = [
     restLogo: booksLogoRest,
     restMargin: 30, // the secound image margin because logo length is different
     backgroundImage: booksBackgroundImage,
-    projects: ['atomic', 'feynman', 'pi', 'physics']
+    projects: ['atomic', 'hamming', 'feynman', 'pi', 'physics']
   }
 ];
 

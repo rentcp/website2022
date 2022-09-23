@@ -5,6 +5,7 @@ const projectImages = {
   tsp1: require.context(`../../assets/images/projectImages/tsp1`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.png$/),
   atomic: require.context(`../../assets/images/projectImages/atomic`, false, /.*\.png$/),
+  hamming: require.context(`../../assets/images/projectImages/hamming`, false, /.*\.png$/),
   pi: require.context(`../../assets/images/projectImages/pi`, false, /.*\.png$/),
   physics: require.context(`../../assets/images/projectImages/physics`, false, /.*\.png$/),
   work: require.context(`../../assets/images/projectImages/work`, false, /.*\.png$/),

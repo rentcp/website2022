@@ -1,6 +1,7 @@
 import satelliteIcon from 'Icons/project-icon-satellite.png';
 import arxivIcon from 'Icons/project-icon-arxiv.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
+import hammingIcon from 'Icons/hamming_icon.png';
 import atomicIcon from 'Icons/atomic_bomb_icon.png'
 import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
@@ -311,6 +312,48 @@ export const projectsListValue = {
       }
     ]
   },  
+
+  hamming: {
+    name: '',
+    tech: [],
+    icon: hammingIcon,
+    involvement: 'The Art of Doing Science and Engineering',
+    link: {
+      type: 'visit',
+      value: 'https://press.stripe.com/the-art-of-doing-science-and-engineering'
+    },
+    description: [
+      {
+        type: 'header',
+        value: 'Simulations'
+      },
+      {
+        type: 'text',
+        value: 'In many proposed areas of simulation there are neither such known experiences nor theory. Thus when I was occasionally asked to do some ecological simulation I quietly asked for the mathematically expressed rules for every possible interaction, for example given the amount of rain what growth of the trees would occur, what exactly were the constants, and also where I could get some real live data to compare some test runs. They soon got the idea and went elsewhere to get someone more willing to run very questionable simulations which would give the results they wanted and could use for their propaganda. I suggest you keep your integrity and do not allow yourself to be used for other people’s propaganda; you need to be wary when agreeing to do a simulation! How is the outsider to distinguish this from a Rorschach test? Did he merely find what he wanted to find, or did he get at “reality”? Regretably, many, many simulations have a large element of this adjusting things to get what they want to get. It is so easy a path to follow. It is for this reason traditional Science has a large number of safeguards, which these days are often simply ignored.',        
+      },
+      {
+        type: 'header',
+        value: 'Finding Non-Existent Patterns in Noise'
+      },
+      {
+        type: 'text',
+        value: 'Now to the next story. A psychologist friend at Bell Telephone Laboratories once built a machine with about 12 switches and a red and a green light. You set the switches, pushed a button, and either you got a red or a green light. After the first person tried it twenty times they wrote a theory of how to make the green light come on. The theory was given to the next victim and they had their twenty tries and wrote their theory, and so on endlessly. The stated purpose of the test was to study how theories evolved. But my friend, being the kind of person he was, had connected the lights to a random source! One day he observed to me that no person in all the tests (and they were all high class Bell Telephone Laboratories scientists) ever said there was no message. I promptly observed to him not one of them was either a statistician or an information theorist, the two classes of people who are intimately familiar with randomness. A check revealed I was right!'
+      },
+      {
+        type: 'text',
+		highlight: 'green',
+        value: 'More than most people want to believe, what we see depends on how we approach the problem! Too often we see what we want to see, and therefore you need to consciously adopt a scientific attitude of doubting your own beliefs.'
+      },
+      {
+        type: 'header',
+        value: 'Management Avoids Decisions'
+      },
+      {
+        type: 'text',
+        value: 'Getting more data is also time consuming so the decision is further delayed—a favorite trick of people in charge who do not want to bear the responsibility of their position—“Get more data”, they say. Company managers always seem to have the idea if only they knew the current state of the company in every detail then they could manage things better. So nothing will do but they must have a data base of all the company’s activities, always up to the moment. This has its difficulties as indicated above. But another thing; suppose you and I are both V.Ps of a company and for a Monday morning meeting we want exactly the same figures. You get yours from a program run on Friday afternoon, while I, being wiser and knowing over the weekend much information comes in from the outlying branches, wait until Sunday night and prepare mine. Clearly there could be significant differences in our two reports, even though we both used the same program to prepare them! That is simply intolerable in practice. Furthermore, most important reports and decisions should not be time sensitive to up to the minute data! '
+      }
+    ]
+  },
   
   work: {
     name: 'Work History',
