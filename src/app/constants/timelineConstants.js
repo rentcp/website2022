@@ -46,7 +46,7 @@ export const timelineListValue = [
     companyName: 'Books',
     link: '',
     position: '',
-    duration: 'Excerpts from favorite books I can access them from anywhere.',
+    duration: 'Excerpts from my favorites',
     location: '',
     roleDetail: '',
     firstLogo: booksLogoFirst,
