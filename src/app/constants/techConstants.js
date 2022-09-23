@@ -27,11 +27,11 @@ export const techList = [
 //  },
   {
     id: 'laravel',
-    name: 'Process Design',
+    name: 'Design',
     firstLogo: laravelIcon,
     backgroundImage: laravelBackgroundImage,
     description: `Chemical process design and development, starting from bench scale chemistry.`,
-    projects: []
+    projects: ['om1', 'colex']
   },
   {
     id: 'react-native',

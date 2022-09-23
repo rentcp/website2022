@@ -7,6 +7,7 @@ import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
 import linkedinIcon from 'Icons/icon-LinkedIn.png'
 import om1Icon from 'Icons/project-icon-om1.png';
+import colexIcon from 'Icons/project-icon-colex.png';
 
 export const projectsListValue = {
   tsp1: {
@@ -355,6 +356,27 @@ export const projectsListValue = {
     ]
   },
   
+  GEB: {
+    name: '',
+    tech: [],
+    icon: linkedinIcon,
+    involvement: 'Godel, Escher, Bach',
+    link: {
+      type: 'visit',
+      value: 'https://www.linkedin.com/in/chris-rentsch/'
+    },
+    description: [
+      {
+        type: 'header',
+        value: 'Header:',        
+      },
+      {
+        type: 'text',
+        value: 'Recently, the entire genome of the tiniest known virus, cpX174, has been laid bare. One most unexpected discovery was made en route: some of its nine genes overlap—that is, two distinct proteins are coded for by the same stretch of DNA! There is even one gene contained entirely inside another! This is accomplished by having the reading frames of the two genes shifted relative to each other, by exactly one unit. The density of information packing in such a scheme is incredible.'
+      }
+    ]
+  },
+  
   work: {
     name: 'Work History',
     tech: [],
@@ -393,32 +415,34 @@ export const projectsListValue = {
     name: 'Origin Materials 1',
     tech: [],
     icon: om1Icon,
-    involvement: '',
+    involvement: 'Head of Engineering',
     link: {
       type: 'visit',
-      value: 'https://www.linkedin.com/in/chris-rentsch/'
+      value: 'https://vimeo.com/640469917'
     },
     description: [
       {
         type: 'text',
         highlight: 'green',
-        value: 'First Text.'
-      },
-      {
-        type: 'header',
-        value: 'Header:',        
-      },
+        value: 'I was Head of Engineering at Origin Materials from 2014-2019. I designed the OM1 facility in Sarnia, Ontario that converts multiple types of biomass into 5-Chloromethylfurfural, an intermediate chemical that can be further converted into polymers, textiles, or plastic water bottles.'
+      }
+    ]
+  },
+  
+ colex: {
+    name: 'Colex-D',
+    tech: [],
+    icon: colexIcon,
+    involvement: 'Manufacturing Representative',
+    link: {
+      type: 'visit',
+      value: 'https://youtu.be/tpLLq0tKF4c'
+    },
+    description: [
       {
         type: 'text',
-        value: 'Second Text.'
-      },
-      {
-        type: 'points',
-        value: [
-          'Point 1',
-          'Point 2',
-          'Point 3'
-        ]
+        highlight: 'green',
+        value: 'I designed and commissioned a system that produced a modified chemical compound with lower odor and lower drift. This prevents a weed killer from damaging sensitive neighboring plants (e.g., grapes, fruit trees).'
       }
     ]
   }
