@@ -2,6 +2,7 @@ import satelliteIcon from 'Icons/project-icon-satellite.png';
 import arxivIcon from 'Icons/project-icon-arxiv.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
 import hammingIcon from 'Icons/hamming_icon.png';
+import GEBIcon from 'Icons/GEB_icon.png';
 import atomicIcon from 'Icons/atomic_bomb_icon.png'
 import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
@@ -359,16 +360,16 @@ export const projectsListValue = {
   GEB: {
     name: '',
     tech: [],
-    icon: linkedinIcon,
+    icon: GEBIcon,
     involvement: 'Godel, Escher, Bach',
     link: {
       type: 'visit',
-      value: 'https://www.linkedin.com/in/chris-rentsch/'
+      value: 'https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach'
     },
     description: [
       {
         type: 'header',
-        value: 'Header:',        
+        value: 'Genome',        
       },
       {
         type: 'text',
