@@ -3,6 +3,8 @@ import arxivIcon from 'Icons/project-icon-arxiv.png';
 import feynmanIcon from 'Icons/feynman_icon.png';
 import hammingIcon from 'Icons/hamming_icon.png';
 import GEBIcon from 'Icons/GEB_icon.png';
+import tspIcon from 'Icons/project-icon-tsp.png';
+import grantIcon from 'Icons/grant_icon.png';
 import atomicIcon from 'Icons/atomic_bomb_icon.png'
 import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
@@ -14,8 +16,12 @@ export const projectsListValue = {
   tsp1: {
     name: 'Angular Study',
     tech: [],
-    involvement: 'Sole Author',
-    icon: arxivIcon,
+    involvement: '',
+    icon: tspIcon,
+	link: {
+      type: 'visit',
+      value: 'https://en.wikipedia.org/wiki/P_versus_NP_problem'
+    },
     description: [
       {
         type: 'text',
@@ -23,26 +29,17 @@ export const projectsListValue = {
         value: 'Empirical study of large TSP solutions'
       },
       {
-        type: 'points',
-        highlight: 'green',
-        title: 'Build a software tool that observed that there is a tendency for optimal TSP solutions to have certain characteristics:',
-        value: [
-          'Aversion for acute angles between cities',
-          'Exponential distribution of path lengths',
-        ]
+        type: 'text',
+        value: 'The Travelling Salesman Problem is one of seven Millenium Prize problems (P vs NP Problem) awaiting proof that solutions can be calculated in polynomial time (or not). When this challenge was first taken up seriously by the engineers at Bell Labs, there were very few solutions available and only for small maps. After computers deployed to solve new TSP maps, a resource began to grow: a library of TSP solutions. This library may be viewed as a tremendous resource, collectively representing many millions of CPU-hours.'
       },
-      {
+	  {
         type: 'text',
         highlight: 'green',
-        value: 'text.'
+        value: 'What insights may be extracted from this library?'
       },
-      {
-        type: 'header',
-        value: 'My Contribution:',        
-      },
-      {
+	  {
         type: 'text',
-        value: 'Contributions.',
+        value: 'When compared to Greedy, Branch-And-Cut, or other optimized algorithms, the true shortest-route solution tends to show an aversion for acute angles, meaning that the angle measured between the arrival and departing path lines tends not to be <90 degrees. Why? There does not immediately appear to be an underlying driver exerting preference for joining 3 cities via non-acute paths. One potential explanation for this behavior: the algorithm should be written to consider both the distance between cities *and* the angle formed at each city. This would require adopting a formulat similar to those that govern liquid films drawn by capillary action.'
       }
     ]
   },
@@ -374,6 +371,51 @@ export const projectsListValue = {
       {
         type: 'text',
         value: 'Recently, the entire genome of the tiniest known virus, cpX174, has been laid bare. One most unexpected discovery was made en route: some of its nine genes overlap—that is, two distinct proteins are coded for by the same stretch of DNA! There is even one gene contained entirely inside another! This is accomplished by having the reading frames of the two genes shifted relative to each other, by exactly one unit. The density of information packing in such a scheme is incredible.'
+      }
+    ]
+  },
+
+  grant: {
+    name: '',
+    tech: [],
+    icon: grantIcon,
+    involvement: 'Think Again',
+    link: {
+      type: 'visit',
+      value: 'https://google.com'
+    },
+    description: [
+      {
+        type: 'header',
+        value: 'Totalitarian Ego',        
+      },
+      {
+        type: 'text',
+        value: 'When a core belief is questioned, we tend to shut down rather than open up. The technical term for this in psychology is the Totalitarian Ego, and its job is to keep out threatening information. The Totalitarian Ego steps in like a body guard for our minds, protecting our self-image by feeding us comforting lies. Neuroscientists find that when our core beliefs are challenged, it can trigger the amygdala, the primitive lizard brain that breezes right past cool rationality and activates a hot fight-or-flight response. The anger and fear are visceral: it feels as if we\'ve been punched in the mind. The Totalitarian Ego comes to the rescue  with mental armor. Presented with someone else\'s arguement, we\'re quite adept at psotting the weaknesses but the positions we\'re blind about are our own. I find this odd, because we weren\'t born with our opinions. Unlike our height or raw intelligence, we have full control over what we believe is true.'
+      },
+      {
+        type: 'header',
+        value: 'Arguing Effectively',        
+      },
+	  {
+        type: 'text',
+        value: 'Although productive disagreement is a critical life skill, it\'s one that many of us never fully develop. The problem starts early: parents disagree behind closed doors, fearing that conflict will make children anxious or somehow damage their character. Yet research shows that how often parents argue has no bearing on their children\'s adademic, social, or emotional development. What matters is how respectfully parents argue, not how frequently. I\'ve watched too many leaders shield themselves from task conflict. As they gain power, they tune out boat-rockers and listen to bootlickers, becoming more and more susceptible to seduction by sycophants. We learn more from people who challenge our thought process than those who affirm our conclusions. In fact, when I argue with someone, it\'s not a display of disresepct—it\'s a sign of respect. It means I value their views enough to contest them. If their opinions didn\'t matter to me, I wouldn\'t bother. I know I have chemistry with someone when we find it delightful to prove eachother wrong.'
+      },
+	  {
+        type: 'header',
+        value: 'Changing Another\'s Mind',        
+      },
+	  {
+        type: 'text',
+        value: 'When we try to convince people to think again, our first instinct is usually to start talking. Yet the most effective way to help others open up their minds is often to listen. Psychologists have found that when people detect an attempt at influence, they have sophisticated defense mechanisms. Motivational interviewing requires a genuine desire to help people reach their goals. It starts with showing more interest in other people\'s interests rather than trying to judge their status or prove our own. Truly curious questions that don\'t have a hidden agenda facilitate the clear expression of another person\'s thoughts. In a series of experiments, interacting with an empathetic, non-judgemental, attentive listener made people less anxious and defensive. They felt less pressure to avoid contradictions in their thinking, which encourages them to explore their opinions more deeply, recognize more nuances in them, and share them more openly. When people have a chance to express themselves out loud, they often discover new thoughts. As the write E. M. Forster put it: "How can I tell what I think till I see what I say?"'
+      },
+	  {
+        type: 'header',
+        value: 'Escalation of Commitment',        
+      },
+	  {
+        type: 'text',
+        value: 'When we dedicate ourselves to a plan and it isn\'t going as we hoped, our first instinct isn\'t usually to rethink it. Instead, we tend to double down and sink more resources in the plan. This pattern is called escalation of commitment. Evidence shows that entrepreneurs persist with failing strategies when they should pivot. Escalation of commitment happens because we are rationalizing creatures, constantly searching for self-justifications for our prior beliefs as a way to soothe our egos, shield our images, and validate our past decisions. Ironically, it can be fueld by one of the most celebrated engines of success: grit. Grit is the combination of passion and perseverance, and research shows that it can play an important role in motivating us to accomplish long-term goals. Experiments show that gritty people are more likely to overplay their hands in roulette and more willing to stay the course in tasks at whcih they\'re failing and success is impossible. There\'s a fine line between heroic persistance and foolish stubbornness.'
       }
     ]
   },

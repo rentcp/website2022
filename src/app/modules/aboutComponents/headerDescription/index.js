@@ -32,7 +32,7 @@ const HeaderDescription = ({
         (props => (
           <Div style={props} className={styles.user_description_container}>
             <div className={styles.user_description}>
-              <b className={styles.name}>Chris Rentsch</b> | Chemical engineer | Data scientist<br />
+              <b className={styles.name}>Chris Rentsch</b>
             </div>
             <Div row justify align className={styles.user_button_container}>
 			<br/>

@@ -39,6 +39,6 @@ export const techList = [
     firstLogo: reactNativeIcon,
     backgroundImage: reactNativeBackgroundImage,
     description: `Travelling Salesman Problem`,
-    projects: []
+    projects: ['tsp1']
   }
 ];

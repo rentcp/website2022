@@ -2,9 +2,9 @@
 @import '~Styles/mixins.module';
 
 .user_description_container {
-  left: calc(50vw - 200px);
-  padding: 118px 50px 30px;
-  border-radius: 65px;
+  left: calc(50vw - 102px);
+  padding: 80px 60px 30px;
+  border-radius: 35px;
   box-shadow: 0px 5px 12px 3px rgba(0, 0, 0, 0.35);
   background-color: rgba(#ffffff, 0.87);
   max-width: 350px;
@@ -28,7 +28,7 @@
   }
 
   .user_button_container {
-    margin-top: 30px;
+    margin-top: 20px;
     flex-wrap: wrap;
 
     .user_button {
@@ -60,7 +60,7 @@
 
 @include medium {
   .user_description_container {
-    padding: 90px 16px 20px;
+    padding: 90px 185px 20px;
     border-radius: unset;
     max-width: unset;
     left: unset;
