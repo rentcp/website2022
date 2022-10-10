@@ -3,6 +3,7 @@ const projectImages = {
   arxiv: require.context(`../../assets/images/projectImages/arxiv`, false, /.*\.png$/),
   om1: require.context(`../../assets/images/projectImages/om1`, false, /.*\.png$/),
   colex: require.context(`../../assets/images/projectImages/colex`, false, /.*\.jpg$/),
+  cleanfuels: require.context(`../../assets/images/projectImages/cleanfuels`, false, /.*\.jpg$/),
   tsp1: require.context(`../../assets/images/projectImages/tsp1`, false, /.*\.png$/),
   feynman: require.context(`../../assets/images/projectImages/feynman`, false, /.*\.jpg$/),
   atomic: require.context(`../../assets/images/projectImages/atomic`, false, /.*\.png$/),

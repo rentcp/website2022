@@ -11,6 +11,7 @@ import physicsIcon from 'Icons/physics_icon.png';
 import linkedinIcon from 'Icons/icon-LinkedIn.png'
 import om1Icon from 'Icons/project-icon-om1.png';
 import colexIcon from 'Icons/project-icon-colex.png';
+import cleanfuelsIcon from 'Icons/project-icon-cleanfuels.png';
 
 export const projectsListValue = {
   tsp1: {
@@ -420,40 +421,6 @@ export const projectsListValue = {
     ]
   },
   
-  work: {
-    name: 'Work History',
-    tech: [],
-    icon: linkedinIcon,
-    involvement: '',
-    link: {
-      type: 'visit',
-      value: 'https://www.linkedin.com/in/chris-rentsch/'
-    },
-    description: [
-      {
-        type: 'text',
-        highlight: 'green',
-        value: 'First Text.'
-      },
-      {
-        type: 'header',
-        value: 'Header:',        
-      },
-      {
-        type: 'text',
-        value: 'Second Text.'
-      },
-      {
-        type: 'points',
-        value: [
-          'Point 1',
-          'Point 2',
-          'Point 3'
-        ]
-      }
-    ]
-  },
-  
   om1: {
     name: 'Origin Materials 1',
     tech: [],
@@ -467,7 +434,7 @@ export const projectsListValue = {
       {
         type: 'text',
         highlight: 'green',
-        value: 'I was Head of Engineering at Origin Materials from 2014-2019. I designed the OM1 facility in Sarnia, Ontario that converts multiple types of biomass into 5-Chloromethylfurfural, an intermediate chemical that can be further converted into polymers, textiles, or plastic water bottles.'
+        value: 'Head of Engineering at Origin Materials from 2014-2019. Designed the OM1 facility in Sarnia, Ontario that converts multiple types of biomass into 5-Chloromethylfurfural, an intermediate chemical that can be further converted into polymers, textiles, or plastic water bottles.'
       }
     ]
   },
@@ -485,7 +452,25 @@ export const projectsListValue = {
       {
         type: 'text',
         highlight: 'green',
-        value: 'I designed and commissioned a system that produced a modified chemical compound with lower odor and lower drift. This prevents a weed killer from damaging sensitive neighboring plants (e.g., grapes, fruit trees).'
+        value: 'Designed and commissioned a system in 2011 that produced a modified chemical compound with lower odor and lower drift. This prevents a weed killer from damaging sensitive neighboring plants (e.g., grapes, fruit trees).'
+      }
+    ]
+  },
+ 
+ cleanfuels: {
+    name: 'Clean Fuels',
+    tech: [],
+    icon: cleanfuelsIcon,
+    involvement: 'Process Engineer',
+    link: {
+      type: 'visit',
+      value: 'https://www.toledoblade.com/Energy/2005/09/27/3-northwest-Ohio-refineries-finishing-clean-fuel-upgrades.html'
+    },
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'Commissioned a new hydrotreater in 2006 to meet ultra-low sulfur fuel specifications.'
       }
     ]
   }
