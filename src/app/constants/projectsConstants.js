@@ -10,6 +10,7 @@ import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
 import linkedinIcon from 'Icons/icon-LinkedIn.png'
 import om1Icon from 'Icons/project-icon-om1.png';
+import cathodeIcon from 'Icons/project-icon-cathode.png';
 import colexIcon from 'Icons/project-icon-colex.png';
 import cleanfuelsIcon from 'Icons/project-icon-cleanfuels.png';
 
@@ -435,6 +436,24 @@ export const projectsListValue = {
         type: 'text',
         highlight: 'green',
         value: 'Head of Engineering at Origin Materials from 2014-2019. Designed the OM1 facility in Sarnia, Ontario that converts multiple types of biomass into 5-Chloromethylfurfural, an intermediate chemical that can be further converted into polymers, textiles, or plastic water bottles.'
+      }
+    ]
+  },
+
+ cathode: {
+    name: 'Lithium Ion Cathode',
+    tech: [],
+    icon: cathodeIcon,
+    involvement: 'Research Scientist',
+    link: {
+      type: 'visit',
+      value: 'http://web.archive.org/web/20151216124639/http:/msdssearch.dow.com/PublishedLiteratureDOWCOM/dh_08dd/0901b803808ddc60.pdf?filepath=dowpod/pdfs/noreg/891-00022.pdf&fromPage=GetDoc'
+    },
+    description: [
+      {
+        type: 'text',
+        highlight: 'green',
+        value: 'Designed and commissioned both pilot (kg) and commercial (MT) systems in 2012-2014 that produced a new lithium ion cathode material.'
       }
     ]
   },
