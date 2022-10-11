@@ -22,10 +22,10 @@ const ProjectDescription = ({ project, className }) => {
   return (
     <Div align="stretch" className={`${styles.description_container} ${className}`}>
       <Div row justify="space_between" className={styles.sub_info_container}>
-        <Div>
-          <div className={styles.title}>Platform</div>
-          <div className={styles.value}>{tech.join(" | ")}</div>
-        </Div>
+        //<Div>
+        //  <div className={styles.title}>Platform</div>
+        //  <div className={styles.value}>{tech.join(" | ")}</div>
+        //</Div>
         <Div align="end">
           <div className={styles.title}>Title</div>
           <div className={styles.value}>{involvement}</div>

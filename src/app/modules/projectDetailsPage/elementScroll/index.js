@@ -105,7 +105,7 @@ const ElementScroll = ({
             opacity: containerOpacityAnimation.opacity,
           }}
         >
-          <div className={styles.title}>Platform</div>
+          <div className={styles.title}><br/></div>
           <div className={styles.value}>{project.tech.join(" | ")}</div>
 
           <div className={`${styles.title} ${styles.project_involvement}`}>

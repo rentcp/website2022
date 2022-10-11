@@ -18,7 +18,7 @@ export const projectsListValue = {
   tsp1: {
     name: 'Angular Study',
     tech: [],
-    involvement: '',
+    involvement: 'The Travelling Salesman Problem',
     icon: tspIcon,
 	link: {
       type: 'visit',
@@ -32,7 +32,7 @@ export const projectsListValue = {
       },
       {
         type: 'text',
-        value: 'The Travelling Salesman Problem is one of seven Millenium Prize problems (P vs NP Problem) awaiting proof that solutions can be calculated in polynomial time (or not). When this challenge was first taken up seriously by the engineers at Bell Labs, there were very few solutions available and only for small maps. After computers deployed to solve new TSP maps, a resource began to grow: a library of TSP solutions. This library may be viewed as a tremendous resource, collectively representing many millions of CPU-hours.'
+        value: 'The Travelling Salesman Problem is one of seven Millenium Prize problems (P vs NP Problem) awaiting proof that solutions can be calculated in polynomial time or not. When this challenge was first taken up seriously by the engineers at Bell Labs, there were very few solutions available and only for small maps. After computers deployed to solve new TSP maps, a resource began to grow: a library of TSP solutions. This library may be viewed as a tremendous resource, collectively representing many millions of CPU-hours.'
       },
 	  {
         type: 'text',
