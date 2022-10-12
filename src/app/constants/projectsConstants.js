@@ -41,7 +41,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
-        value: 'When compared to Greedy, Branch-And-Cut, or other optimized algorithms, the true shortest-route solution tends to show an aversion for acute angles, meaning that the angle measured between the arrival and departing path lines tends not to be <90 degrees. Why? There does not immediately appear to be an underlying driver exerting preference for joining 3 cities via non-acute paths. One potential explanation for this behavior: the algorithm should be written to consider both the distance between cities *and* the angle formed at each city. This would require adopting a formulat similar to those that govern liquid films drawn by capillary action.'
+        value: 'When compared to Greedy, Branch-And-Cut, or other optimized algorithms, the true shortest-route solution tends to show an aversion for acute angles, meaning that the angle measured between the arrival and departing path lines tends not to be <90 degrees. Why? There does not immediately appear to be an underlying driver exerting preference for joining 3 cities via non-acute paths. One potential explanation for this behavior: the algorithm should be written to consider both the distance between cities *and* the angle formed at each city. This would require adopting a formula similar to those that govern liquid films drawn by capillary action.'
       }
     ]
   },
