@@ -5,10 +5,11 @@ import hammingIcon from 'Icons/hamming_icon.png';
 import GEBIcon from 'Icons/GEB_icon.png';
 import tspIcon from 'Icons/project-icon-tsp.png';
 import grantIcon from 'Icons/grant_icon.png';
-import atomicIcon from 'Icons/atomic_bomb_icon.png'
+import atomicIcon from 'Icons/atomic_bomb_icon.png';
 import piIcon from 'Icons/pi_icon.png';
 import physicsIcon from 'Icons/physics_icon.png';
-import linkedinIcon from 'Icons/icon-LinkedIn.png'
+import noiseIcon from 'Icons/noise_icon.png';
+import tailsIcon from 'Icons/tails_icon.jpg';
 import om1Icon from 'Icons/project-icon-om1.png';
 import cathodeIcon from 'Icons/project-icon-cathode.png';
 import colexIcon from 'Icons/project-icon-colex.png';
@@ -418,6 +419,65 @@ export const projectsListValue = {
 	  {
         type: 'text',
         value: 'When we dedicate ourselves to a plan and it isn\'t going as we hoped, our first instinct isn\'t usually to rethink it. Instead, we tend to double down and sink more resources in the plan. This pattern is called escalation of commitment. Evidence shows that entrepreneurs persist with failing strategies when they should pivot. Escalation of commitment happens because we are rationalizing creatures, constantly searching for self-justifications for our prior beliefs as a way to soothe our egos, shield our images, and validate our past decisions. Ironically, it can be fueld by one of the most celebrated engines of success: grit. Grit is the combination of passion and perseverance, and research shows that it can play an important role in motivating us to accomplish long-term goals. Experiments show that gritty people are more likely to overplay their hands in roulette and more willing to stay the course in tasks at whcih they\'re failing and success is impossible. There\'s a fine line between heroic persistance and foolish stubbornness.'
+      }
+    ]
+  },
+  
+  noise: {
+    name: '',
+    tech: [],
+    involvement: 'Noise',
+    icon: noiseIcon,
+	link: {
+      type: 'visit',
+      value: 'https://www.amazon.com/Noise-Human-Judgment-Daniel-Kahneman/dp/0316451401/'
+    },
+    description: [
+      {
+        type: 'header',
+        value: 'Groups of Decision-makers',        
+      },
+      {
+        type: 'text',
+        value: 'There is a related point. We have pointed to the wisdom of crowds: if you take a large group of people and ask them a question, there is a good chance that the average answer will be close to the target. Aggregating judgments can be an excellent way of reducing noise, and therefore error. But what happens if people are listening to one another? You might well think that their doing so is likely to help. After all, people can learn from one another and thus figure out what is right. Under favorable circumstances, in which people share what they know, deliberating groups can indeed do well. But independence is a prerequisite for the wisdom of crowds. If people are not making their own judgments and are relying instead on what other people think, crowds might not be so wise after all.'
+      },
+      {
+        type: 'text',
+        value: 'Research has revealed exactly that problem. In simple estimation tasks—the number of crimes in a city, population increases over specified periods, the length of a border between nations—crowds were indeed wise as long as they registered their views independently. But if they learned the estimates of other people—for example, the average estimate of a group of twelve—the crowd did worse. As the authors put it, social influences are a problem because they reduce “group diversity without diminishing the collective error.” The irony is that while multiple independent opinions, properly aggregated, can be strikingly accurate, even a little social influence can produce a kind of herding that undermines the wisdom of crowds'
+      },
+
+      {
+        type: 'text',
+        value: 'If you are assembling a team of judges, you should of course pick the best judge first. But your next choice may be a moderately valid individual who brings some new skill to the table rather than a more valid judge who is highly similar to the first one. A team selected in this manner will be superior because the validity of pooled judgments increases faster when the judgments are uncorrelated with one another than when they are redundant. Pattern noise will be relatively high in such a team because individual judgments of each case will differ. Paradoxically, the average of that noisy group will be more accurate than the average of a unanimous one. An important caveat is in order. Regardless of diversity, aggregation can only reduce noise if judgments are truly independent. As our discussion of noise in groups has highlighted, group deliberation often adds more error in bias than it removes in noise.',
+      }
+    ]
+  },
+  
+  tails: {
+    name: '',
+    tech: [],
+    involvement: 'Statistical Consequences of Fat Tails',
+    icon: tailsIcon,
+	link: {
+      type: 'visit',
+      value: 'https://www.amazon.com/Statistical-Consequences-Fat-Tails-Preasymptotics/dp/1544508050/'
+    },
+    description: [
+      {
+        type: 'header',
+        value: 'Coming Soon',        
+      },
+      {
+        type: 'text',
+        value: 'Coming Soon'
+      },
+      {
+        type: 'text',
+        value: 'Coming soon'
+      },
+      {
+        type: 'text',
+        value: 'Coming Soon.',
       }
     ]
   },
