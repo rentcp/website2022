@@ -463,22 +463,114 @@ export const projectsListValue = {
       value: 'https://www.amazon.com/Statistical-Consequences-Fat-Tails-Preasymptotics/dp/1544508050/'
     },
     description: [
-      {
+	  {
         type: 'header',
-        value: 'Coming Soon',        
+        value: 'Chapter 2',        
       },
       {
         type: 'text',
-        value: 'Coming Soon'
+        value: '"Skin in the Game: A filtering mechanism that forces cooks to eat their own cooking and be exposed to harm in the event of failure, thus throws dangerous people out of the system. Fields that have skin in the game: plumbing, dentistry, surgery, engineering, activities where operators are evaluated by tangible results or subjected to ruin and bankruptcy. Fields where people have no skin in the game: circular academic fields where people rely on peer assessment rather than survival pressures from reality."',        
       },
       {
+        type: 'text',
+        value: '"Rent seeking in academia: There is a conflict of interest between a given researcher and the subject under consideration. The objective function of an academic department (and person) becomes collecting citations, honors, etc. at the expense of the purity of the subject: for instance many people get stuck in research corners because it is more beneficial to their careers and to their department."'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 3',        
+      },
+      {
+        type: 'text',
+        value: 'Taleb\'s whole thesis is: markets, wars, natural disasters, etc may arrive according to a range of distributions but we seem stuck using just one: the Normal (or Gaussian) distribution. However, the Normal distribution is mathematically constructed in such a way that it predicts large wars or large market changes occur every 10^10 years (because the equation puts the size of the event in the exponent: e^(-x^2), or said differently: it is thin-tailed). If we would adopt other distributions, such as Pareto or Student-T, we would find x^-α and big event happen every 10^2 years or so (they are heavy-tailed or fat-tailed). This is over a million times more frequent! We would then generate better predictions or expectations of certain events.'
+      },
+      {
+        type: 'text',
+        value: 'When someone without skin-in-the-game (i.e., an academic who writes papers about wars) looks at the frequency of large conflicts that cause millions of casualties, they tend to arrive at the conclusion that the data is "heteroskedastic" which means it is best-modeled as a quiet, low-variance (low # of war casualties) for long periods of time, punctuated with brief high-variance (high # of casualties) events. This is sort of like saying "schools tend to turn out B-average students, but once per decade or century there might be all-E\'s or all-A+\'s and we will capture this by briefly altering our modeled student intelligence rating." Taleb would say "no, you just don\'t understand how diverse the student population is. If you modeled students with a heavy-tail distribution, you would have no need to artificially change their intelligence ratings in hindsight to explain big deviations." Taleb is abrasive and publically condescends prominent figures like Steven Pinker or Bob Rubin, to their chagrin',
+      },
+	  {
+        type: 'text',
+        value: 'If the concept of different probability distributions is unclear, consider urns (often evoked in probability courses) filled with colored balls that are withdrawn one at a time. One urn has the height of every woman on earth inscribed on the balls (one height per ball), the other urn is the same but for men. If you randomly withdrew one ball from each urn and added the two heights, you will find that it is never the case that one ball explains <1% of the sum of the heights. In fact, you will consistently get 1 ball attributing 25-75% of the total. This is a direct consequence of the fact that human height is normally distributed. Now replace the balls in one urn with the net worth of each individual in Germany, and in the other urn each individual in Japan. If you withdraw, randomly, one from each you will most of the time get two numbers that total less than $1M, but occasionally you will get a total that is >$30M. Now, what is the liklihood that the two individuals roughly equally contribute to the $30M total? Practically zero! You are probably holding a ball that has $29.95M and another ball that has $50k.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 4',        
+      },
+	  {
+        type: 'text',
+        value: 'Taleb criticizes the conventional use of standard deviation (stddev) and makes an arguement for using mean average deviation (MAD) instead, for the following reasons: 1. Certain distributions (e.g, Pareto) have undefined variance (therefore undefined stddev) but they have defined (and useful!) MAD. 2. When people are presented with stddev information, they typically act upon it as though they have been given MAD. This point is emmphasized in Daniel Kahneman\'s book \'Noise\' where correcting a forcast that is "off by 11" down to 10 as reducing total error twenty times more than reducing it from 1 to 0. Kahneman is referring to stddev, but intuitively those corrections are both =1 and therefore are the same. MAD treats them as the same.'
+      },
+	  {
+        type: 'header',
+        value: '"The statistician cannot evade the responsibility for understanding the process they apply or reccomend." -Sir Ronald A. Fisher ',        
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 5',        
+      },
+	  {
+        type: 'text',
+        value: 'On Page 100 a Zipf plot (log-log) for jobless claims over time shows they are log-Pareto distributed, which is robust to the huge spike in jobless claims at the start of the COVID-19 pandemic. Taleb loathes economists who would resort to calling the data heteroskedastic, increase the variance, but keep their thin-tailed distribution assumptions intact, while he is complementary of Benoit Mandelbrot for correctly observing the true underlying distribution.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 6',        
+      },
+	  {
+        type: 'text',
+        value: 'Regressing a variable from a fat-tailed distribution against one from a thin-tailed class results in spuriously-high r^2 values, thus leading some researchers to believe causation exists (where there is none). This is demonstrated in Fig 6.13 where random Cauchy variables are regressed against Gaussian (no correlation whatsoever) but gives r^2=0.985 owing to the small sample size. A real-world example of this error occurs when researchers regress IQ (thin-tailed) against income (fat-tailed) and they clip the tails (winsorize). Such regressions require enormous (10^13 times more) data to converge.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 7',        
+      },
+	  {
+        type: 'text',
+        value: 'The maximum-to-sum plot presents a y-axis ranged 0:1 and an x-axis 0:n where n=number of data points. The curve plotted is the single maximum value in the first n samples, divided by the sum of the first n samples. For Gaussian-distributed variables, the curve starts at (1, 0) and quickly approaches 0 as n->n(max). But for fat-tailed variables (e.g., the S&P500 daily movements) the curve constantly resets higher, never asymptotically reaching the x-axis. This type of plot can serve as a check for fat-tailedness.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 8',        
+      },
+	  {
+        type: 'text',
+        value: 'Some papers rely the existance of a second central moment (variance) as the verification check for thin-tailedness. If α<2 the variance no longer exists and the distribution is reclassified as fat-tailed. However, distributions with α=2-4 with defined variance converge much more slowly than gaussian. "For example, a Student T with...α = 3 requires 120 observations to get the same drop in variance...as the Gaussian with 30...The one-tailed Pareto with the same tail exponent α = 3 requires 543 observations to match a Gaussian sample of 30...the Pareto 80/20...which maps to a tail exponent around α ≈ 1.14, requires > 10^9 more observations than the Gaussian. The speed of convergence according to the central limit theorem will differ according to whether the density concerns the center or the tails."'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 9',        
+      },
+	  {
+        type: 'text',
+        value: 'Past extremes are not a good indicator of future extremes. Lucretius fallacy: "The fool believes that the tallest river and tallest mountain there is equals the tallest ones he has personally seen." The rest of the chapter focusses on the mean of the distribution. Figure 9.7 shows how even after 10,000 samples the empirical mean of a Pareto distribution has still only reached ~35% of the true mean. This fact invalidates a fair number of research papers that claim empirical checks on past market crash rates are indicative of future rates.'
+      },
+	  {
+        type: 'text',
+        value: 'Supplement B, figure B.2 is the most fascinating in the entire book. It is the 60 worst pandemics normalized to today\'s population, randomly sampled half at a time (bootstrapped) to robustly show the tail exponent α = 0.22, the lowest they have ever seen. This means pandemic deaths (as a percent of the entire human population) are the heaviest-tail distribution they have ever observed. Past pandemic severity is almost certainly no indicator of future pandemic severity.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 10',        
+      },
+	  {
         type: 'text',
         value: 'Coming soon'
       },
-      {
+	  {
+        type: 'header',
+        value: 'Chapter 11',        
+      },
+	  {
         type: 'text',
-        value: 'Coming Soon.',
-      }
+        value: 'Coming soon'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 12',        
+      },
+	  {
+        type: 'text',
+        value: 'Coming soon'
+      },
     ]
   },
   
