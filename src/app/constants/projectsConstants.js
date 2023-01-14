@@ -469,10 +469,12 @@ export const projectsListValue = {
       },
       {
         type: 'text',
+		highlight: 'green',
         value: '"Skin in the Game: A filtering mechanism that forces cooks to eat their own cooking and be exposed to harm in the event of failure, thus throws dangerous people out of the system. Fields that have skin in the game: plumbing, dentistry, surgery, engineering, activities where operators are evaluated by tangible results or subjected to ruin and bankruptcy. Fields where people have no skin in the game: circular academic fields where people rely on peer assessment rather than survival pressures from reality."',        
       },
       {
         type: 'text',
+		highlight: 'green',
         value: '"Rent seeking in academia: There is a conflict of interest between a given researcher and the subject under consideration. The objective function of an academic department (and person) becomes collecting citations, honors, etc. at the expense of the purity of the subject: for instance many people get stuck in research corners because it is more beneficial to their careers and to their department."'
       },
 	  {
@@ -481,14 +483,17 @@ export const projectsListValue = {
       },
       {
         type: 'text',
+		highlight: 'green',
         value: 'Taleb\'s whole thesis is: markets, wars, natural disasters, etc may arrive according to a range of distributions but we seem stuck using just one: the Normal (or Gaussian) distribution. However, the Normal distribution is mathematically constructed in such a way that it predicts large wars or large market changes occur every 10^10 years (because the equation puts the size of the event in the exponent: e^(-x^2), or said differently: it is thin-tailed). If we would adopt other distributions, such as Pareto or Student-T, we would find x^-α and big event happen every 10^2 years or so (they are heavy-tailed or fat-tailed). This is over a million times more frequent! We would then generate better predictions or expectations of certain events.'
       },
       {
         type: 'text',
+		highlight: 'green',
         value: 'When someone without skin-in-the-game (i.e., an academic who writes papers about wars) looks at the frequency of large conflicts that cause millions of casualties, they tend to arrive at the conclusion that the data is "heteroskedastic" which means it is best-modeled as a quiet, low-variance (low # of war casualties) for long periods of time, punctuated with brief high-variance (high # of casualties) events. This is sort of like saying "schools tend to turn out B-average students, but once per decade or century there might be all-E\'s or all-A+\'s and we will capture this by briefly altering our modeled student intelligence rating." Taleb would say "no, you just don\'t understand how diverse the student population is. If you modeled students with a heavy-tail distribution, you would have no need to artificially change their intelligence ratings in hindsight to explain big deviations." Taleb is abrasive and publically condescends prominent figures like Steven Pinker or Bob Rubin, to their chagrin',
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'If the concept of different probability distributions is unclear, consider urns (often evoked in probability courses) filled with colored balls that are withdrawn one at a time. One urn has the height of every woman on earth inscribed on the balls (one height per ball), the other urn is the same but for men. If you randomly withdrew one ball from each urn and added the two heights, you will find that it is never the case that one ball explains <1% of the sum of the heights. In fact, you will consistently get 1 ball attributing 25-75% of the total. This is a direct consequence of the fact that human height is normally distributed. Now replace the balls in one urn with the net worth of each individual in Germany, and in the other urn each individual in Japan. If you withdraw, randomly, one from each you will most of the time get two numbers that total less than $1M, but occasionally you will get a total that is >$30M. Now, what is the liklihood that the two individuals roughly equally contribute to the $30M total? Practically zero! You are probably holding a ball that has $29.95M and another ball that has $50k.'
       },
 	  {
@@ -497,6 +502,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'Taleb criticizes the conventional use of standard deviation (stddev) and makes an arguement for using mean average deviation (MAD) instead, for the following reasons: 1. Certain distributions (e.g, Pareto) have undefined variance (therefore undefined stddev) but they have defined (and useful!) MAD. 2. When people are presented with stddev information, they typically act upon it as though they have been given MAD. This point is emmphasized in Daniel Kahneman\'s book \'Noise\' where correcting a forcast that is "off by 11" down to 10 as reducing total error twenty times more than reducing it from 1 to 0. Kahneman is referring to stddev, but intuitively those corrections are both =1 and therefore are the same. MAD treats them as the same.'
       },
 	  {
@@ -509,6 +515,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'On Page 100 a Zipf plot (log-log) for jobless claims over time shows they are log-Pareto distributed, which is robust to the huge spike in jobless claims at the start of the COVID-19 pandemic. Taleb loathes economists who would resort to calling the data heteroskedastic, increase the variance, but keep their thin-tailed distribution assumptions intact, while he is complementary of Benoit Mandelbrot for correctly observing the true underlying distribution.'
       },
 	  {
@@ -517,6 +524,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'Regressing a variable from a fat-tailed distribution against one from a thin-tailed class results in spuriously-high r^2 values, thus leading some researchers to believe causation exists (where there is none). This is demonstrated in Fig 6.13 where random Cauchy variables are regressed against Gaussian (no correlation whatsoever) but gives r^2=0.985 owing to the small sample size. A real-world example of this error occurs when researchers regress IQ (thin-tailed) against income (fat-tailed) and they clip the tails (winsorize). Such regressions require enormous (10^13 times more) data to converge.'
       },
 	  {
@@ -525,6 +533,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'The maximum-to-sum plot presents a y-axis ranged 0:1 and an x-axis 0:n where n=number of data points. The curve plotted is the single maximum value in the first n samples, divided by the sum of the first n samples. For Gaussian-distributed variables, the curve starts at (1, 0) and quickly approaches 0 as n->n(max). But for fat-tailed variables (e.g., the S&P500 daily movements) the curve constantly resets higher, never asymptotically reaching the x-axis. This type of plot can serve as a check for fat-tailedness.'
       },
 	  {
@@ -533,6 +542,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'Some papers rely the existance of a second central moment (variance) as the verification check for thin-tailedness. If α<2 the variance no longer exists and the distribution is reclassified as fat-tailed. However, distributions with α=2-4 with defined variance converge much more slowly than gaussian. "For example, a Student T with...α = 3 requires 120 observations to get the same drop in variance...as the Gaussian with 30...The one-tailed Pareto with the same tail exponent α = 3 requires 543 observations to match a Gaussian sample of 30...the Pareto 80/20...which maps to a tail exponent around α ≈ 1.14, requires > 10^9 more observations than the Gaussian. The speed of convergence according to the central limit theorem will differ according to whether the density concerns the center or the tails."'
       },
 	  {
@@ -541,10 +551,12 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'Past extremes are not a good indicator of future extremes. Lucretius fallacy: "The fool believes that the tallest river and tallest mountain there is equals the tallest ones he has personally seen." The rest of the chapter focusses on the mean of the distribution. Figure 9.7 shows how even after 10,000 samples the empirical mean of a Pareto distribution has still only reached ~35% of the true mean. This fact invalidates a fair number of research papers that claim empirical checks on past market crash rates are indicative of future rates.'
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'Supplement B, figure B.2 is the most fascinating in the entire book. It is the 60 worst pandemics normalized to today\'s population, randomly sampled half at a time (bootstrapped) to robustly show the tail exponent α = 0.22, the lowest they have ever seen. This means pandemic deaths (as a percent of the entire human population) are the heaviest-tail distribution they have ever observed. Past pandemic severity is almost certainly no indicator of future pandemic severity.'
       },
 	  {
@@ -553,7 +565,8 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
-        value: 'Coming soon'
+		highlight: 'green',
+        value: '"Many researchers invoke "outliers" or "peso problem" as acknowledging fat tails (or the role of the tails for the distribution), yet ignore them analytically (outside of Poisson models that are not possible to calibrate except after the fact: conventional Poisson jumps are thin-tailed). Our approach here is exactly the opposite: do not push outliers under the rug, rather build everything around them. In other words, just like the FAA and the FDA who deal with safety by focusing on catastrophe avoidance, we will throw away the ordinary under the rug and retain extremes as the sole sound approach to risk management. And this extends beyond safety since much of the analytics and policies that can be destroyed by tail events are inapplicable."'
       },
 	  {
         type: 'header',
@@ -561,15 +574,57 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
-        value: 'Coming soon'
-      },
-	  {
-        type: 'header',
-        value: 'Chapter 12',        
+		highlight: 'green',
+        value: '"Some verbalistic papers in 2019 still commit the fallacy of binarizing an event in [0, ∞): A recent paper on calibration of beliefs says "...if a person claims that the United States is on the verge of an economic collapse or that a climate disaster is imminent..." An economic "collapse" or a climate "disaster" must not be expressed as an event in {0, 1} when in the real world it can take many values. For that, a characteristic scale is required. In fact under fat tails, there is no "typical" collapse or disaster, owing to the absence of characteristic scale, hence verbal binary predictions or beliefs cannot be used as gauges. Practically all economic and informational variables have been shown since the 1960s to belong to the [Fat tailed] class, or at least the intermediate subexponential class (which includes the lognormal), along with social variables such as size of cities, words in languages, connections in networks, size of firms, incomes for firms, macroeconomic data, monetary data, victims from interstate conflicts and civil wars, operational risk, damage from earthquakes, tsunamis, hurricanes and other natural calamities, income inequality, etc. Which leaves us with the more rational question: where are Gaussian variables?"'
       },
 	  {
         type: 'text',
-        value: 'Coming soon'
+		highlight: 'green',
+        value: '"To replicate an open-ended continuous payoff with binaries, one needs an infinite series of bets, which cancels the entire idea of a prediction market by transforming it into a financial market. Distributions with compact support always have finite moments, not the case of those on the real line." There is more interesting math on pg. 219 regarding payoff (consequence) calculation. The gist is: it is inadequate to merely calculate the % chance of default. There are some loan default events that are so bad, the residual value of the asset won\'t be 80-cents-on-the-dollar. "In 2007, after a massive series of foreclosures, the value of most collaterals dropped to about 1/3 of its expected value!"'
+      },  
+	  {
+        type: 'header',
+        value: 'Chapter 14',        
+      },
+	  {
+        type: 'text',
+		highlight: 'green',
+        value: 'Since fat-tailed variables only very slowly reveal the true mean over time, this can lead researchers to erroneously conclude income inequality is getting worse or global violence is decreasing. Maybe, but income is Pareto (80/20) distributed, α = 1.16 and wars are 80/2 distributed (80% of casualties come from 2% of wars)...these are very fat tailed variables. Revisit Chapter 8 for guidelines on the amount of data needed to pin down a mean or variance!'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 15',        
+      },
+	  {
+        type: 'text',
+		highlight: 'green',
+        value: 'While Levy-stable distribution has a defined mean (infinite/undefined variance) and even heavier tails (α < 1) have neither defined mean or variance. However, if there is a finite upper bound (maximum loss, non-infinite) then it will still be possible to calculate first and second moments.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 16',        
+      },
+	  {
+        type: 'text',
+		highlight: 'green',
+        value: 'As mentioned in Ch. 14 violent conflicts are extremely fat-tailed (0.4 < α < 0.7) thus has undefined mean, undefined variance. Nevertheless, some researchers use naive % change by year or mean casualties per unit time and attempt to calculate a trend and conclude the world is getting safer (Pinker). However, all violent events with more than 20 million victims occurred in the last 150 yrs. For an event with more than 10 million victims, the average time delay is 101.58 yrs with a mean absolute deviation of 144.47 yrs. To detect an actual change in violent tendencies, we need to go 300 years without a WWII-scale conflict. "It always takes more data to assert that there are no Black Swans than to assert that there are Black Swans; we would need much more data to claim a drop in violence than to claim a rise in it. For fat-tailed variables, the mean is almost entirely determined by extremes. If you are uncertain about the tails, then you are uncertain about the mean...under extreme fat tails, the statistical mean can be closer to the past maximum observation than sample average."'
+      },
+	  {
+        type: 'header',
+        value: 'Chapter 19',        
+      },
+	  {
+        type: 'text',
+		highlight: 'green',
+        value: '"P-values are shown to be extremely skewed and volatile, regardless of the sample size n, and vary greatly across repetitions of exactly same protocols under identical stochastic copies of the phenomenon; such volatility makes the minimum p value diverge significantly from the "true" one. Setting the power is shown to offer little remedy unless sample size is increased markedly or the p-value is lowered by at least one order of magnitude." For trials with a true p-value of 0.22 (generally regarded as not significant) it takes only ~4 attempts to get a p-value of 0.049 (publishable!). A Monte Carlo of hundreds of trials that have an expected p-value of 0.11 will give p<0.05 about 53% of the time and p<0.01 about 25% of the time. Therefore, p<0.05 is too high as a publishing standard and we need a lower one; reccommend p<0.005.'
+      },
+	  {
+        type: 'header',
+        value: 'Chapters 22-23',        
+      },
+	  {
+        type: 'text',
+        value: 'The Black-Scholes equation (1973) is used to price options for a security of a given volatility. Unfortunately, it contains an underlying Gaussian distribution and does not price tail events accurately (fig. 23.5). Interestingly, options traders do not rely on the B.S. equation and instead "price off the butterfly" or respond to supply-and-demand, a long time-tested method (options were traded hundreds of years ago, with sophistication). If options traders were truly following Black-Scholes, then excessive demand would not affect the price of options (but in practice it does).'
       },
     ]
   },
