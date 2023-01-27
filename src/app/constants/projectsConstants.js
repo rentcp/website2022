@@ -624,6 +624,7 @@ export const projectsListValue = {
       },
 	  {
         type: 'text',
+		highlight: 'green',
         value: 'The Black-Scholes equation (1973) is used to price options for a security of a given volatility. Unfortunately, it contains an underlying Gaussian distribution and does not price tail events accurately (fig. 23.5). Interestingly, options traders do not rely on the B.S. equation and instead "price off the butterfly" or respond to supply-and-demand, a long time-tested method (options were traded hundreds of years ago, with sophistication). If options traders were truly following Black-Scholes, then excessive demand would not affect the price of options (but in practice it does).'
       },
     ]
