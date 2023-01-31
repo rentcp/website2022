@@ -11,4 +11,6 @@ Used Created-React-App for this project so to run locally
 - Run `nvm install 16.13.0`
 - Run `nvm use 16.13.0`
 - Run `npm start` to initialize local host.
+
+Sometimes `npm start` doesn't work for some users, but `yarn start` does work. Try both. There are some updates needed (code is 3+ yrs old).
 <br/>
