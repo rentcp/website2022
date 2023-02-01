@@ -1,8 +1,8 @@
-@import '~Styles/colors.module';
-@import '~Styles/mixins.module';
+@import "~Styles/colors.module";
+@import "~Styles/mixins.module";
 
 .user_description_container {
-  left: calc(50vw - 102px);
+  left: calc(50vw - 124px);
   padding: 80px 60px 30px;
   border-radius: 35px;
   box-shadow: 0px 5px 12px 3px rgba(0, 0, 0, 0.35);
@@ -57,18 +57,21 @@
   }
 }
 
-
 @include medium {
   .user_description_container {
-    padding: 90px 185px 20px;
+    padding: 90px 35vw 20px;
     border-radius: unset;
     max-width: unset;
     left: unset;
 
     .user_button_container {
       margin-top: 20px;
+
+      .user_button {
+        margin-bottom: 0.5rem;
+      }
     }
-  
+
     .contact_container {
       margin-top: 30px;
     }

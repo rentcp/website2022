@@ -8,43 +8,41 @@ const HeaderDescription = ({
   showDescription,
   onClickProject,
   onClickTimeline,
-  isFirstTime
+  isFirstTime,
 }) => {
-
   return (
     <Transition
       items={showDescription}
       from={{
         opacity: 0,
-        transform: "translateY(calc(50vh - 0px))"
+        transform: "translateY(calc(50vh - 0px))",
       }}
       enter={{
         opacity: 1,
-        transform: "translateY(calc(50vh - 145px))"
+        transform: "translateY(calc(50vh - 145px))",
       }}
       leave={{
-        opacity: 0
+        opacity: 0,
       }}
       config={isFirstTime ? { delay: 300 } : config.default}
     >
-      {showDescription =>
+      {(showDescription) =>
         showDescription &&
-        (props => (
+        ((props) => (
           <Div style={props} className={styles.user_description_container}>
             <div className={styles.user_description}>
               <b className={styles.name}>Chris Rentsch</b>
             </div>
             <Div row justify align className={styles.user_button_container}>
-			<br/>
+              <br />
               <Div
                 align
-                className={styles.user_button}
+                className={`${styles.user_button} user_button`}
                 onClick={onClickProject}
               >
                 PROJECTS
                 <Underline isFirstTime={isFirstTime} />
               </Div>
-
 
               <Div
                 align
@@ -54,7 +52,6 @@ const HeaderDescription = ({
                 ABOUT
                 <Underline isFirstTime={isFirstTime} />
               </Div>
-              
             </Div>
             <ContactComponent className={styles.contact_container} />
           </Div>
@@ -68,23 +65,21 @@ const Underline = ({ isFirstTime }) => (
   <Transition
     items={true}
     from={{
-      transform: isFirstTime ? "scale(0)" : "scale(1)"
+      transform: isFirstTime ? "scale(0)" : "scale(1)",
     }}
     enter={{
-      transform: "scale(1)"
+      transform: "scale(1)",
     }}
     config={{ delay: 800 }}
   >
-    {showUnderline =>
-      (props => (
+    {(showUnderline) => (props) =>
+      (
         <div
           style={props}
           className={`${styles.underline} ${styles.show_underline}`}
         ></div>
-      ))
-    }
+      )}
   </Transition>
 );
-
 
 export default memo(HeaderDescription);
