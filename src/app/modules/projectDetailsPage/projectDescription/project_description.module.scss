@@ -57,5 +57,14 @@
 @include small {
   .sub_info_container {
     display: flex;
+    justify-content: flex-end;
+
+    text-align: right;
+    margin-bottom: 16px;
+
+    .title {
+      color: #999;
+      margin-bottom: 5px;
+    }
   }
 }
